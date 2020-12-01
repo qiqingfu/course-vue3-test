@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="548b4781-4b74-432f-9b28-4dbfd89ee1e5" name="Default Changelist" comment="" />
+    <list default="true" id="548b4781-4b74-432f-9b28-4dbfd89ee1e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/two/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/game/two/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/two/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/game/two/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,15 +21,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/game/two/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunManager">
+    <configuration name="App.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/game/two/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/game/two" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/game/two/tests/App.spec.js" />
+      <test-names>
+        <test-name value="App.vue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.App.vue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="548b4781-4b74-432f-9b28-4dbfd89ee1e5" name="Default Changelist" comment="" />
@@ -34,10 +63,29 @@
       <option name="presentableId" value="Default" />
       <updated>1606812204433</updated>
       <workItem from="1606812205554" duration="456000" />
+      <workItem from="1606836815294" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1423" height="344" key="GridCell.Tab.0.bottom" timestamp="1606837481353">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1423" height="344" key="GridCell.Tab.0.bottom/-2504.-209.2504.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1606837481353" />
+    <state width="1423" height="344" key="GridCell.Tab.0.center" timestamp="1606837481353">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1423" height="344" key="GridCell.Tab.0.center/-2504.-209.2504.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1606837481353" />
+    <state width="1423" height="344" key="GridCell.Tab.0.left" timestamp="1606837481353">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1423" height="344" key="GridCell.Tab.0.left/-2504.-209.2504.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1606837481353" />
+    <state width="1423" height="344" key="GridCell.Tab.0.right" timestamp="1606837481353">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1423" height="344" key="GridCell.Tab.0.right/-2504.-209.2504.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1606837481353" />
   </component>
 </project>
