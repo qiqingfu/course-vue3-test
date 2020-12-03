@@ -23,10 +23,10 @@ describe("TodoList.vue", () => {
   test("completes a todo", async () => {
     const checkbox = wrapper.find('[type="checkbox"]');
     await checkbox.trigger("click");
-    const divs1 = wrapper.findAll(".completed")
-    expect(divs1.length).toBe(1)
+    const divs1 = wrapper.findAll(".completed");
+    expect(divs1.length).toBe(1);
     await checkbox.trigger("click");
-    const divs2 = wrapper.findAll(".completed")
-    expect(divs2.length).toBe(0)
+    const divs2 = wrapper.findAll(".completed");
+    expect(divs2.length).toBe(0);
   });
 });

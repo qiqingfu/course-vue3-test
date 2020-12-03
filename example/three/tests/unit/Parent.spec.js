@@ -4,6 +4,7 @@ import { mount, shallowMount } from "@vue/test-utils";
 test("with mount", () => {
   const wrapper = mount(Parent);
   console.log(wrapper.html());
+  expect(wrapper.html()).toContain("child");
 });
 
 test("with shallowMount", () => {
