@@ -19,7 +19,7 @@ describe("TodoList.vue", () => {
     //when
     const input = wrapper.get("[data-test=newTodo]");
     // 前置条件断言
-    expect(wrapper.findAll("[data-test=todo]").length).toBe(1)
+    expect(wrapper.findAll("[data-test=todo]").length).toBe(1);
     // setValue
     await input.setValue("item1");
     // -> submit
@@ -40,8 +40,8 @@ describe("TodoList.vue", () => {
     const checkbox = wrapper.get("[data-test=checkbox]");
     await checkbox.setValue();
     // 找到对应的 item
-    const todo = wrapper.get("[data-test=todo]")
+    const todo = wrapper.get("[data-test=todo]");
     // expect(todo.classes("completed")).toBeTruthy()
-    expect(todo.classes()).toContain("completed")
+    expect(todo.classes()).toContain("completed");
   });
 });

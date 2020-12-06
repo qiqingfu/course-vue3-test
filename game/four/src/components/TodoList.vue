@@ -26,20 +26,22 @@ export default {
         {
           id: 1,
           text: "Learn Vue.js 3",
-          completed: false,
-        },
+          completed: false
+        }
       ],
+      id: 1
     };
   },
 
   methods: {
     createTodo() {
+      this.id = this.id + 1;
       this.todos.push({
-        id: 2,
+        id: this.id,
         text: this.newTodo,
-        completed: false,
+        completed: false
       });
-    },
-  },
+    }
+  }
 };
 </script>
