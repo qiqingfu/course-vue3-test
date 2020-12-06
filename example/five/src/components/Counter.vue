@@ -2,7 +2,7 @@
   <div>
     {{ count }}
     {{ toParent }}
-    <button @click="handleClick">Increment</button>
+    <button data-test="button" @click="handleClick">Increment</button>
     <Child @to-parent="handleToParent"></Child>
   </div>
 </template>
